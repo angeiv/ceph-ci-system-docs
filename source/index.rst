@@ -18,8 +18,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ceph-ci-system's documentation!
-==========================================
+Ceph 社区 CI 文档
+=================
 
 .. toctree::
    :maxdepth: 2
@@ -30,8 +30,8 @@ Welcome to ceph-ci-system's documentation!
 本文主要分析 Ceph 社区测试框架 `teuthology <http://docs.ceph.com/teuthology/docs/README.html>`_
 以及本地化部署方面的内容。
 
-Indices and tables
-==================
+索引表
+======
 
 * :ref:`genindex`
 * :ref:`modindex`
