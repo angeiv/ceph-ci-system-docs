@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Add chinese pdf config
 * Add build icon from ReadTheDocs
 * Add setuptools config
 * Add requirements.txt
