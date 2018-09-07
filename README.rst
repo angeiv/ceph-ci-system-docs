@@ -8,4 +8,8 @@ Ceph 社区 CI 系统文档
    :target: https://ceph-ci.readthedocs.io/zh/latest/?badge=latest
    :alt: Documentation Status
 
-LICENSE: APL 2.0
+LICENSE
+=======
+
+* Apache License Version 2.0
+* Creative Commons Attribution 4.0 International License
