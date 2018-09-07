@@ -15,3 +15,28 @@
 
 Teuthology 架构
 ===============
+
+自动化测试框架流程大致如下：
+
+.. code-block:: guess
+
+   github push -> jenkins ->    baremetal slave    -> shaman <-> chacra -> teuthology -> fog -> testnode -> paddles
+                            |                        OR                      |
+                             \  mita  ->  prado  ->  OVH slave  /
+
+软件组成
+========
+
+Teuthology 测试框架所使用到的软件组成如下：
+
+* `Jenkins <https://jenkins.io/>`_ 持续集成工具
+* `teuthology <https://github.com/ceph/teuthology>`_ Ceph 测试套件
+* `mita <https://github.com/ceph/mita>`_ Jenkins Slave 编排服务，用于动态创建 Jenkins Slave
+* `prado <https://github.com/ceph/prado>`_ 提供运行 Ansible 单个脚本的 Web 服务，用于节点初始化
+* `shaman <https://github.com/ceph/shaman>`_ 查询提供软件包的 chacra 节点，水平扩展和调度 chacra 节点
+* `chacra <https://github.com/ceph/chacra>`_ 提供不同架构二进制包或文件的管理 REST API 接口
+
+参考连接
+========
+
+https://wiki.sepia.ceph.com/doku.php
