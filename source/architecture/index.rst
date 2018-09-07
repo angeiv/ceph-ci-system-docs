@@ -18,11 +18,11 @@ Teuthology 架构
 
 自动化测试框架流程大致如下：
 
-.. code-block:: guess
+.. code-block:: none
 
-   github push -> jenkins ->    baremetal slave    -> shaman <-> chacra -> teuthology -> fog -> testnode -> paddles
-                            |                        OR                      |
-                             \  mita  ->  prado  ->  OVH slave  /
+   github push -> jenkins ->        baremetal slave       -> shaman <-> chacra -> teuthology -> fog -> testnode -> paddles
+                            |             OR              |
+                             \ mita -> prado -> OVH slave /
 
 软件组成
 ========
